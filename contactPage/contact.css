@@ -1,0 +1,63 @@
+/*General Style*/
+html {
+    height:100%;
+    width:100%;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+body {
+    height:100%;
+    width:100%;
+    margin:0;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    background-color: rgb(35, 35, 35);
+}
+
+form {
+    margin:auto;
+    background-color: rgb(62, 62, 62);
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+/*Text Properties*/
+.inputText {
+    width: 300px;
+    height: 20px;
+    border-radius: 2px;
+    border: none;
+    background-color: aliceblue;
+    margin-top: 10px;
+}
+
+.inputTextMessage {
+    width: 300px;
+    height: 100px;
+    border-radius: 2px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    margin-top: 10px;
+}
+
+.inputButtonSubmit {
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 3px;
+}
+
+.inputButtonSubmit:hover {
+    background-color: rgb(35, 35, 35);
+    color: aliceblue;
+    border: none;
+    border-radius: 3px;
+}
